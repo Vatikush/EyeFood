@@ -1,0 +1,299 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EyeFood</title>
+    <link rel="shortcut icon" href="Media/Logo.png"/>
+    <link rel="stylesheet" href="genericStyle.css">
+    <link rel="stylesheet" href="Bootstrap.css">  
+  </head>
+  <body>
+
+          <!-- Header -->
+          <header class="blog-header border-bottom lh-1 py-3">
+            <div class="cnt-ct">
+              <a href="index.html"> <img src="Media/logo.png" class="bi me-2 mx-sm-3 mt-1" style="width: 75px;"></a>
+            </div>
+
+            <div class="row gx-0 flex-wrap align-items-center">
+    
+              <div class="col-md-3 mt-3 justify-content-center" style="display: flex;">
+                <div style="width: 40%;"> 
+                    <button class="btn btn-primary cnt-ct w-100 order-mn order-md-1 mb-3" mb-3 type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                    </button>
+                </div>
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                  <div class="offcanvas-header">
+                    <h3 class="offcanvas-title" id="offcanvasScrollingLabel">Menù</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body center">
+                    <div class="cnt-ct" type="button"> <a href="Login.html" class="btn btn-outline-thrd w-100"> Login </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="Login.html" class="btn btn-outline-thrd w-100"> Area personale </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="Login.html" class="btn btn-outline-thrd w-100"> Ricettario personale </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="Login.html" class="btn btn-outline-thrd w-100"> Lista della spesa </a> <hr></div>
+                    <div class="cnt-ct"> <a href="Login.html" class="btn btn-outline-thrd w-100"> A modo mio </a> <hr></div>
+                    <div class="cnt-ct"> <a href="index.html" class="btn btn-outline-thrd w-100"> Home </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="antipasti.html" class="btn btn-outline-thrd w-100"> Antipasti </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="primi.html" class="btn btn-outline-thrd w-100"> Primi </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="secondi.html" class="btn btn-outline-thrd w-100"> Secondi </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="dolci.html" class="btn btn-outline-thrd w-100"> Dolci </a> <hr></div>
+                    <div class="cnt-ct"> <a href="SvuotaFrigo.html" class="btn btn-outline-thrd w-100"> SvuotaFrigo </a> <hr></div>
+                    <div class="cnt-ct"> <a href="Q&A.html" class="btn btn-outline-thrd w-100"> Question&Answer</a> <hr></div>
+                    <div class="cnt-ct"> <a href="about-us.html" class="btn btn-outline-thrd w-100"> About us </a> <hr></div>
+                        <div class="cnt-ct mb-3"> <img src="Media/logo.png" class="bi me-2 mx-sm-3" style="width: 200px;"> </div>
+                  </div>
+                </div>
+
+            </div>
+                <div class="col-md-6 mt-2">
+                  <div class="input-group center" style="width: 60%;">
+                        <input type="text" class="form-control" placeholder="Cerca" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-primary" type="button" id="button-addon2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 18 18">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg>
+                        </button>
+                      </div>
+                </div>
+
+                <div class="col-md-3 text-center mt-2">
+                  <div>
+                    <a class="btn btn-sm btn-primary mx-1" href="Login.html" style="margin-right:5px; margin-left:20px;">Accedi</a>
+                    <a class="btn btn-sm btn-primary mx-1" href="Login.html">Registrati</a>
+                  </div>
+                </div>
+            
+            </div>
+          </header>
+
+          <!--Titolo della pagina-->
+        <div class="row gx-0">
+            <div class="col-md-3 mt-4">
+            </div>
+            <div class="col-md-9 mt-3 mb-3">
+                <h1> Crea e pubblica la tua ricetta personale!</h1>
+            </div>
+        </div>
+
+        <!--Dati della ricetta da aggiungere-->
+        <div class="container shadow mb-3 p-2"> 
+
+          <!--Informazioni generali ricetta-->
+            <h1 class="p-3"> Informazioni generali</h1>
+
+            <div class="row p-3"> 
+                <div class="col-md-3 mt-2 mb-4 cnt-ct">
+                        <svg xmlns="http://www.w3.org/2000/svg" alt="Inserisci il nome della ricetta" width="50" height="50" fill="currentColor" class="bi bi-file-plus" viewBox="0 0 16 16">
+                            <path d="M8.5 6a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V10a.5.5 0 0 0 1 0V8.5H10a.5.5 0 0 0 0-1H8.5V6z"/>
+                            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+                        </svg>
+                        <div>
+                            <label for="Name-ricetta" class="form-label mt-2">Inserisci il nome della ricetta:</label>
+                            <input type="Name-ricetta" class="form-control" id="Nome-ricetta" placeholder="Inserisci qui...">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mt-2 mb-4 cnt-ct">
+                        <svg xmlns="http://www.w3.org/2000/svg" alt="Inserisci il tipo di portata" width="50" height="50" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+                            <path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+                            <path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+                          </svg>
+                        <div>
+                            <label for="Tipo-ricetta" class="form-label mt-2">Inserire il tipo della portata:</label>
+                            <select class="form-select" id="tipo" required="">
+                                <option value="">Scegli...</option>
+                                <option>Antipasto</option>
+                                <option>Primo</option>
+                                <option>Secondo</option>
+                                <option>Dolce</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mt-2 mb-4 cnt-ct">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16">
+                            <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+                          </svg>
+                        <div>
+                            <label for="Tipologia-alimento" class="form-label mt-2">Inserire l'ingrediente principale:</label>
+                            <select class="form-select" id="Alimento-principale" required="">
+                                <option value="">Scegli...</option>
+                                <option>Pasta</option>
+                                <option>Carne</option>
+                                <option>Pesce</option>
+                                <option>Zuppa</option>
+                                <option>Verdura</option>
+                                <option>Frutta</option>
+                                <option>Altro</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mt-2 mb-4 cnt-ct">
+                        <svg xmlns="http://www.w3.org/2000/svg" alt="Inserire il costo del piatto" width="50" height="50" fill="currentColor" class="bi bi-currency-exchange" viewBox="0 0 16 16">
+                            <path d="M0 5a5.002 5.002 0 0 0 4.027 4.905 6.46 6.46 0 0 1 .544-2.073C3.695 7.536 3.132 6.864 3 5.91h-.5v-.426h.466V5.05c0-.046 0-.093.004-.135H2.5v-.427h.511C3.236 3.24 4.213 2.5 5.681 2.5c.316 0 .59.031.819.085v.733a3.46 3.46 0 0 0-.815-.082c-.919 0-1.538.466-1.734 1.252h1.917v.427h-1.98c-.003.046-.003.097-.003.147v.422h1.983v.427H3.93c.118.602.468 1.03 1.005 1.229a6.5 6.5 0 0 1 4.97-3.113A5.002 5.002 0 0 0 0 5zm16 5.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0zm-7.75 1.322c.069.835.746 1.485 1.964 1.562V14h.54v-.62c1.259-.086 1.996-.74 1.996-1.69 0-.865-.563-1.31-1.57-1.54l-.426-.1V8.374c.54.06.884.347.966.745h.948c-.07-.804-.779-1.433-1.914-1.502V7h-.54v.629c-1.076.103-1.808.732-1.808 1.622 0 .787.544 1.288 1.45 1.493l.358.085v1.78c-.554-.08-.92-.376-1.003-.787H8.25zm1.96-1.895c-.532-.12-.82-.364-.82-.732 0-.41.311-.719.824-.809v1.54h-.005zm.622 1.044c.645.145.943.38.943.796 0 .474-.37.8-1.02.86v-1.674l.077.018z"/>
+                          </svg>
+                        <div>
+                            <label for="Costo" class="form-label mt-2">Inserire il costo del piatto:</label>
+                            <select class="form-select" id="costo" required="">
+                                <option value="">Scegli...</option>
+                                <option>Molto basso</option>
+                                <option>Basso</option>
+                                <option>Medio</option>
+                                <option>Alto</option>
+                                <option>Molto alto</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row p-3"> 
+                    <div class="col-md-3 mt-2 mb-4 cnt-ct">
+                        <svg xmlns="http://www.w3.org/2000/svg" alt="Inserire il livello di difficoltà" width="50" height="50" fill="currentColor" class="bi bi-question-octagon" viewBox="0 0 16 16">
+                            <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+                            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                          </svg>
+                        <div>
+                            <label for="Difficoltà" class="form-label mt-2">Inserire il livello di difficoltà:</label>
+                            <select class="form-select" id="difficult" required="">
+                                <option value="">Scegli...</option>
+                                <option>Molto facile</option>
+                                <option>Facile</option>
+                                <option>Medio</option>
+                                <option>Difficile</option>
+                                <option>Molto difficile</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mt-2 mb-4 cnt-ct">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                          </svg>
+                        <div>
+                            <label for="Dosi" class="form-label mt-2">Numero di persone per dosi:</label>
+                            <input type="Dosi" class="form-control" id="Dosi" placeholder="Inserisci qui...">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mt-2 mb-4 cnt-ct">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-stopwatch" viewBox="0 0 16 16">
+                            <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                            <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                          </svg>
+                        <div>
+                            <label for="Name-ricetta" class="form-label mt-2">Tempo di preparazione (minuti):</label>
+                            <input type="Tempo-prerazione" class="form-control" id="Tempo-preparazione" placeholder="Inserisci qui...">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mt-2 mb-4 cnt-ct">
+                        <svg xmlns="http://www.w3.org/2000/svg" alt="Inserire l'ingrediente principale" width="50" height="50" fill="currentColor" class="bi bi-egg-fried" viewBox="0 0 16 16">
+                            <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            <path d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"/>
+                          </svg>
+                        <div>
+                            <label for="Name-ricetta" class="form-label mt-2">Tempo di cottura (minuti):</label>
+                            <input type="Tempo-cottura" class="form-control" id="Tempo-cottura" placeholder="Inserisci qui...">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Informazioni fondamentali della ricetta-->
+                <div class="row p-3">
+                    <hr>
+                    <h1> Corpo della ricetta</h1>
+                    <div class="col-md-6 mt-4 mb-4">
+                        <label for="Storia" class="form-label"> Inserire la storia del piatto:</label>
+                        <textarea class="form-control" id="Storia" rows="10"></textarea>
+                    </div>
+
+                    <div class="col-md-6 mt-4 mb-4">
+                        <label for="Ingredienti" class="form-label"> Inserire gli ingredienti del piatto:</label>
+                        <textarea class="form-control" id="Ingredienti" rows="10"></textarea>
+                    </div>
+                </div>
+
+                <div class="row p-3">
+                    <div class="col-md-6 mt-2 mb-4">
+                        <label for="Preparazione" class="form-label"> Spiegare il processo di preparazione:</label>
+                        <textarea class="form-control" id="Preparazione" rows="10"></textarea>
+                    </div>
+
+                    <div class="col-md-6 mt-2 mb-4">
+                        <label for="Consigli" class="form-label"> Ulteriori consigli:</label>
+                        <textarea class="form-control" id="Consigli" rows="10"></textarea>
+                    </div>
+                </div>
+
+                <!--Informazioni aggiuntive-->
+                <div class="row p-3">
+                    <hr>
+                    <h1> Dettagli aggiuntivi</h1>
+                    <div class="col-md-6 mt-4 mb-4">
+                        <label for="Valori nutrizionali" class="form-label"> Inseririre i valori nutrizionali (per 100g):</label>
+                        <textarea class="form-control" id="Preparazione" rows="10"></textarea>
+                    </div>
+
+                    <div class="col-md-6 mt-4 mb-4 cnt-ct">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
+                            <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                            <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
+                          </svg>
+                        <div>
+                            <label for="formFile" class="form-label">Inserisci l'immagine della ricetta:</label>
+                            <input class="form-control" type="file" id="input-img">
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" alt="Inserire l'eventuale tutorial" width="50" height="43" fill="currentColor" class="bi bi-youtube mt-4" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                          </svg>
+                          <div>
+                            <label for="tutorial" class="form-label mt-2">Inserire l'URL dell'eventuale video tutorial:</label>
+                            <input type="tutorial" class="form-control" id="tutorial" placeholder="Inserisci qui...">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-8 mx-sm-3"> 
+                        <a class="btn btn-sm btn-outline-secondary mx-sm-1" href="#">Annulla</a>
+                        <a class="btn btn-sm btn-outline-secondary mx-sm-1" href="index.html">Salva</a>
+                        <a class="btn btn-sm btn-outline-secondary mx-sm-1" href="index.html">Salva e pubblica</a>
+                    </div>
+                </div>
+
+                <!--Torna alla home-->
+                <a class="mt-4 h4 p-2 mb-4" href="index.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5ZM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5Z"/>
+                    </svg>
+                     Torna alla home </a>
+
+            </div>
+        </div>
+
+    <!-- Footer -->
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a></li>
+        <li class="nav-item"><a href="Login.html" class="nav-link px-2">Accedi</a></li>
+        <li class="nav-item"><a href="Login.html" class="nav-link px-2">Registrati </a></li>
+        <li class="nav-item"><a href="SvuotaFrigo.html" class="nav-link px-2">SvuotaFrigo</a></li>
+        <li class="nav-item"><a href="UploadRicetta.html" class="nav-link px-2">A modo mio</a></li>
+        <li class="nav-item"><a href="about-us.html" class="nav-link px-2">About us</a></li>
+        <li class="nav-item"><a href="Q&A.html" class="nav-link px-2">Q&A</a></li>
+      </ul>
+      <p class="text-center">© 2023 EyeFood, Unicam</p>
+    </footer>
+    
+  </body>
+
+  <!-- Script-->
+  <script src="genericFun.js" charset="utf-8"></script>
+  <script src="bootstrap.js" charset="utf-8"></script>
+</html>
+    

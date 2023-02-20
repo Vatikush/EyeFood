@@ -1,0 +1,251 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EyeFood</title>
+    <link rel="shortcut icon" href="Media/Logo.png"/>
+    <link rel="stylesheet" href="genericStyle.css">
+    <link rel="stylesheet" href="Bootstrap.css">  
+  </head>
+  <body>
+
+          <!-- Header -->
+          <header class="blog-header border-bottom lh-1 py-3">
+            <div class="cnt-ct">
+              <a href="index.html"> <img src="Media/logo.png" class="bi me-2 mx-sm-3 mt-1" style="width: 75px;"></a>
+            </div>
+
+            <div class="row gx-0 flex-wrap align-items-center">
+    
+              <div class="col-md-3 mt-3 justify-content-center" style="display: flex;">
+                <div style="width: 40%;"> 
+                    <button class="btn btn-primary cnt-ct w-100 order-mn order-md-1 mb-3" mb-3 type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                    </button>
+                </div>
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                  <div class="offcanvas-header">
+                    <h3 class="offcanvas-title" id="offcanvasScrollingLabel">Menù</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body center">
+                    <div class="cnt-ct" type="button"> <a href="Login.html" class="btn btn-outline-thrd w-100"> Login </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="Login.html" class="btn btn-outline-thrd w-100"> Area personale </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="Login.html" class="btn btn-outline-thrd w-100"> Ricettario personale </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="Login.html" class="btn btn-outline-thrd w-100"> Lista della spesa </a> <hr></div>
+                    <div class="cnt-ct"> <a href="Login.html" class="btn btn-outline-thrd w-100"> A modo mio </a> <hr></div>
+                    <div class="cnt-ct"> <a href="index.html" class="btn btn-outline-thrd w-100"> Home </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="antipasti.html" class="btn btn-outline-thrd w-100"> Antipasti </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="primi.html" class="btn btn-outline-thrd w-100"> Primi </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="secondi.html" class="btn btn-outline-thrd w-100"> Secondi </a> <hr> </div>
+                    <div class="cnt-ct"> <a href="dolci.html" class="btn btn-outline-thrd w-100"> Dolci </a> <hr></div>
+                    <div class="cnt-ct"> <a href="SvuotaFrigo.html" class="btn btn-outline-thrd w-100"> SvuotaFrigo </a> <hr></div>
+                    <div class="cnt-ct"> <a href="Q&A.html" class="btn btn-outline-thrd w-100"> Question&Answer</a> <hr></div>
+                    <div class="cnt-ct"> <a href="about-us.html" class="btn btn-outline-thrd w-100"> About us </a> <hr></div>
+                        <div class="cnt-ct mb-3"> <img src="Media/logo.png" class="bi me-2 mx-sm-3" style="width: 200px;"> </div>
+                  </div>
+                </div>
+
+            </div>
+                <div class="col-md-6 mt-2">
+                  <div class="input-group center" style="width: 60%;">
+                        <input type="text" class="form-control" placeholder="Cerca" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-primary" type="button" id="button-addon2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 18 18">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg>
+                        </button>
+                      </div>
+                </div>
+
+                <div class="col-md-3 text-center mt-2">
+                  <div>
+                    <a class="btn btn-sm btn-primary mx-1" href="Login.html" style="margin-right:5px; margin-left:20px;">Accedi</a>
+                    <a class="btn btn-sm btn-primary mx-1" href="Login.html">Registrati</a>
+                  </div>
+                </div>
+            
+            </div>
+          </header>
+
+        <div class="row gx-0">
+
+            <!--Filtra-->
+            <div class="col-md-3 mt-2">
+                <div class="mt-4"> 
+                    <div class="p-5 bg-light border rounded-3">
+                        <h2>Filtra</h2>
+                        <label for="Difficoltà" class="form-label">Per difficoltà: </label>
+                        <select class="form-select" id="difficoltà" required="">
+                            <option value="">Scegli...</option>
+                            <option>Molto facile</option>
+                            <option>Facile</option>
+                            <option>Medio</option>
+                            <option>Difficile</option>
+                            <option>Molto difficile</option>
+                        </select>
+
+                        <label for="Costo" class="form-label mt-2">Per costo: </label>
+                        <select class="form-select" id="costo" required="">
+                            <option value="">Scegli...</option>
+                            <option>Molto basso</option>
+                            <option>Basso</option>
+                            <option>Medio</option>
+                            <option>Alto</option>
+                            <option>Molto alto</option>
+                        </select>
+
+                        <label for="Preparazione" class="form-label mt-2">Per tempo di preparazione:</label>
+                        <input type="range" class="form-range" min="0" max="5" step="0.1" id="Preparazione">
+
+                        <label for="Cottura" class="form-label mt-2">Per tempo di cottura:</label>
+                        <input type="range" class="form-range" min="0" max="5" step="0.1" id="Cottura">
+
+                        <label for="Ingredienti" class="form-label mt-2">Per ingredienti:</label>
+                        <input type="Ingredienti" class="form-control" id="Ingredienti" placeholder="Inserisci qui...">
+
+                        <a class="btn btn-sm btn-outline-secondary mt-4" href="#"> Filtra </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Contenuto principale -->
+            <div class="col-md-9">
+
+                <!--Ricette degli antipasti-->
+                <div class="container shadow p-3">
+                    <div class="nav-scroller py-1 mb-2">
+                        <nav class="nav d-flex justify-content-center">
+                          <a class="link-secondary mx-3 mt-3" href="antipasti.html">Antipasti</a>
+                          <a class="link-secondary mx-3 mt-3" href="primi.html">Primi</a>
+                          <a class="link-secondary mx-3 mt-3" href="secondi.html">Secondi</a>
+                          <a class="link-secondary mx-3 mt-3" href="dolci.html">Dolci</a>
+                          <a class="link-secondary mx-3 mt-3" href="UploadRicetta.html">A modo mio </a>
+                        </nav>
+
+                        <div class="cnt-ct mb-4 mt-4">
+                          <div class="mx-sm-1">
+                            <h3> Cerca nel sito</h3>
+                          </div>
+                          <div class="input-group center" style="width: 50%; justify-content: center;">
+                            <input type="text" class="form-control" placeholder="Cerca" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 18 18">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-12 mt-4">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                          <div class="col-md-4">
+                            <div class="card">
+                              <img src="Media/antipasto2.avif" class="card-img-top" alt="Primo antipasto">
+                              <div class="card-body">
+                                <h5 class="card-title"> Focaccia alla genovese</h5>
+                                <p class="card-text">La focaccia alla genovese, in dialetto “a fügassa”, 
+                                   è una specialità tipica della cucina ligure e la tradizione della sua 
+                                   antica preparazione è cosi radicata nei genovesi...
+                                  </p>
+                                  <a href="Focaccia.html"> <strong> <u> Vai alla ricetta </u></strong></a>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="col-md-4">
+                              <div class="card">
+                                <img src="Media/antipasto1.avif" class="card-img-top" alt="Secondo antipasto">
+                                <div class="card-body">
+                                  <h5 class="card-title">Arancini/Arancine di riso</h5>
+                                  <p class="card-text text-start">Gli arancini di riso (o arancine), vanto della cucina siciliana, 
+                                    sono dei piccoli timballi adatti ad essere consumati sia come spuntino 
+                                    che come antipasto, primo piatto o addirittura piatto unico...</p>
+                                    <a href="Focaccia.html"> <strong> <u> Vai alla ricetta </u></strong></a>
+                                  </div> 
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                  <img src="Media/antipasto3.avif" class="card-img-top" alt="Terzo antipasto">
+                                  <div class="card-body">
+                                    <h5 class="card-title"> Polpettine di tonno e ricotta </h5>
+                                    <p class="card-text">Le polpettine di tonno e ricotta sono un antipasto
+                                       facile e veloce, ideale da servire anche come secondo piatto:
+                                        una variante semplice ed economica delle classiche polpette di pesce...
+                                      </p>
+                                      <a href="#"> <strong> <u> Vai alla ricetta </u></strong></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="card">
+                                  <img src="Media/antipasto4.avif" class="card-img-top" alt="Quarto antipasto">
+                                  <div class="card-body">
+                                    <h5 class="card-title"> Panzerotti fritti</h5>
+                                    <p class="card-text">I panzerotti fritti, anche detti calzoni, sono tipici 
+                                          della cucina pugliese. Mezzelune di pasta lievitata, molto simili all'impasto 
+                                          della pizza, ripiene con mozzarella, pomodoro e origano.
+                                      </p>
+                                      <a href="#"> <strong> <u> Vai alla ricetta </u></strong></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="card">
+                                  <img src="Media/antipasto5.avif" class="card-img-top" alt="Quinto antipasto">
+                                  <div class="card-body">
+                                    <h5 class="card-title"> Mozzarella in carrozza</h5>
+                                    <p class="card-text"> Solo uno chef di origini partenopee
+                                         poteva rivelarci tutti i segreti per realizzare la mozzarella 
+                                         in carrozza: una ricetta sfiziosa, diffusa anche nel Lazio con 
+                                         alcune differenze, molto semplice...
+                                    </p>
+                                      <a href="#"> <strong> <u> Vai alla ricetta </u></strong></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="card">
+                                  <img src="Media/antipasto6.avif" class="card-img-top" alt="Sesto antipasto">
+                                  <div class="card-body">
+                                    <h5 class="card-title"> Capesante gratinate</h5>
+                                    <p class="card-text">Le capesante gratinate sono un antipasto perfetto per le feste: 
+                                      una delicata e profumata panatura aromatizzata con timo, maggiorana e prezzemolo
+                                      impreziosisce questi raffinati frutti di mare...
+                                      </p>
+                                      <a href="#"> <strong> <u> Vai alla ricetta </u></strong></a>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+      
+    <!-- Footer -->
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a></li>
+        <li class="nav-item"><a href="Login.html" class="nav-link px-2">Accedi</a></li>
+        <li class="nav-item"><a href="Login.html" class="nav-link px-2">Registrati </a></li>
+        <li class="nav-item"><a href="SvuotaFrigo.html" class="nav-link px-2">SvuotaFrigo</a></li>
+        <li class="nav-item"><a href="UploadRicetta.html" class="nav-link px-2">A modo mio</a></li>
+        <li class="nav-item"><a href="about-us.html" class="nav-link px-2">About us</a></li>
+        <li class="nav-item"><a href="Q&A.html" class="nav-link px-2">Q&A</a></li>
+      </ul>
+      <p class="text-center">© 2023 EyeFood, Unicam</p>
+    </footer>
+
+  </body>
+
+  <!-- Script-->
+  <script src="genericFun.js" charset="utf-8"></script>
+  <script src="bootstrap.js" charset="utf-8"></script>
+</html>
+    
