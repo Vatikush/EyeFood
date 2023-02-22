@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <title>EyeFood</title>
     <link rel="shortcut icon" href="Media/Logo.png"/>
-    <link rel="stylesheet" href="genericStyle.css">
+    <link rel="stylesheet" href="supportStyle.css">
     <link rel="stylesheet" href="Bootstrap.css">  
   </head>
   <body>
@@ -85,7 +85,7 @@
                           <a class="link-secondary mx-3 mt-3" href="primi.html">Primi</a>
                           <a class="link-secondary mx-3 mt-3" href="secondi.html">Secondi</a>
                           <a class="link-secondary mx-3 mt-3" href="dolci.html">Dolci</a>
-                          <a class="link-secondary mx-3 mt-3" href="UploadRicetta.html">A modo mio </a>
+                          <a class="link-secondary mx-3 mt-3" href="Login.html">A modo mio </a>
                         </nav>
                     </div>
 
@@ -342,29 +342,41 @@
                 <div class="col-md-12 mt-4 mb-2">
                   <hr>
                     <div class="row p-3">
-                      <h2 class="mb-3"> Ulteriori funzionalità</h2>
+                      <h2 class="mb-3"> Accedi al tuo profilo per usare queste funzionalità</h2>
+
+                       <!--Link della pagina Ricettario personale-->
+                       <div class="col-md-4">
+                        <div class="h-100 p-5 bg-light border rounded-3 cnt-ct">
+                          <h4> Ricettario personale</h4>
+                          <img src="Media/cardRicettario.jpg" class="img-fluid mt-2 rounded-3" style="width: 150px; height:150px;">
+                          <br>
+                          <p class="text-start mt-3"> Gestisci in modo efficiente il tuo ricettario personale. Clicca in basso per visitare la pagina.
+                           </p>
+                           <a class="btn btn-primary mt-2 text-start" type="button" href="Login.html"> Vai alla pagina</a>
+                        </div>
+                      </div>
 
                       <!--Link alla pagina Amodomio-->
-                      <div class="col-md-6">
+                      <div class="col-md-4">
                         <div class="h-100 p-5 bg-light border rounded-3 cnt-ct">
                           <h4> Crea la tua ricetta</h4>
                           <img src="Media/ricette-1.jpg" class="img-fluid mt-2 rounded-3" style="width: 150px; height:150px;">
                           <br>
                           <p class="text-start mt-3"> Crea e pubblica la tua ricette. Clicca in basso per visitare la pagina.
                            </p>
-                           <a class="btn btn-primary mt-2" type="button" href="UploadRicetta.html"> Vai alla pagina</a>
+                           <a class="btn btn-primary mt-2" type="button" href="Login.html"> Vai alla pagina</a>
                         </div>
                       </div>
 
                       <!--Link della pagina Lista della spesa-->
-                      <div class="col-md-6">
+                      <div class="col-md-4">
                         <div class="h-100 p-5 bg-light border rounded-3 cnt-ct">
                           <h4> Gestisci la tua spesa</h4>
                           <img src="Media/spesa1.webp" class="img-fluid mt-2 rounded-3" style="width: 150px; height:150px;">
                           <br>
                           <p class="text-start mt-3"> Gestisci in modo efficiente la tua spesa. Clicca in basso per visitare la pagina.
                            </p>
-                           <a class="btn btn-primary mt-2 text-start" type="button" href="ListaSpesa.html"> Vai alla pagina</a>
+                           <a class="btn btn-primary mt-2 text-start" type="button" href="Login.html"> Vai alla pagina</a>
                         </div>
                       </div>
 
@@ -393,7 +405,7 @@
   </body>
 
   <!-- Script-->
-  <script src="genericFun.js" charset="utf-8"></script>
+  <script src="SupportScript.js" charset="utf-8"></script>
   <script src="bootstrap.js" charset="utf-8"></script>
 </html>
     
